@@ -15,8 +15,8 @@ const questionsData = [
     },
     {
         "title": "#3",
-        "question": '"Antes das leis e dos pactos, o homem vivia em plena liberdade, guiado apenas pelo ______."',
-        "password": 'ESTADO DE NATUREZA',
+        "question": '"Para Rousseau, o ________ é essencial para que os indivíduos vivam em harmonia e igualdade"',
+        "password": 'PACTO SOCIAL',
         "color": "#fffc47",
         "title": '#3'
     },
