@@ -61,9 +61,9 @@ input.addEventListener('input', function makeQuestion() {
     }
 })
 
-returnButton.addEventListener('click', function returnFirstFrame () {
-    counter = 0
-    background.style.display = 'flex'
-    changeQuestion()
-    document.getElementById('congratulations').style.display = 'none'
-})
+// returnButton.addEventListener('click', function returnFirstFrame () {
+//     counter = 0
+//     background.style.display = 'flex'
+//     changeQuestion()
+//     document.getElementById('congratulations').style.display = 'none'
+// })
