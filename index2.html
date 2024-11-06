@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filosofia</title>
+    <link rel="stylesheet" href="global.css">
+    <style>
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        #questions, #congratulations {
+            background-color: #6d3f0db9;
+        }
+
+        #questions > input {
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div id="questions">
+            <input type="text" id="password" name="password" placeholder="Insira a senha">
+            <img src="rousseau_image.png" alt="Imagem de Rousseau">
+        </div>
+        <div id="congratulations">
+            <h1 id="title"></h1>
+            <h1 id="congrat_resp">PARABÉNS</h1>
+            <a id="return" href="https://e-matias.github.io/RousseauEnigma/">Quer jogar de novo? Clique aqui</a>
+        </div>
+    </main>
+    <script>
+        const senha = 135
+        const divInputPassword = document.getElementById('questions')
+        const divCongratulations = document.getElementById('congratulations')
+        const input = document.getElementById('password')
+
+        input.addEventListener('input', 
+            function teste () {
+                if (input.value.toUpperCase() == 135) {
+                    divInputPassword.style.display = 'none'
+                    divCongratulations.style.display = 'flex'
+                } else {
+                    console.log('AHAHAHAHAHAHAHAHAHAHAHAHAHAHA')
+                }
+            }
+        )
+    </script>
+</body>
+</html>
